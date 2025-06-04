@@ -1,0 +1,33 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+int *ptr; // global definition
+// stack allocate and initialize`ptr` 
+void alloc() {
+  int local[10];
+  ptr = &local[0];
+}
+// make a `return`
+int ret_after_use() {
+    return ptr[10];
+}
+int main() {
+		
+	int i = *(int *)malloc(2);//error: pa2
+	i = 0;
+	i++;
+	free((void *)i);
+		/*
+	alloc();
+	int i = ret_after_use();
+	ptr = &i; // error: use after return
+	char *s = malloc(1);
+	free(s);
+	printf("%s", s);//error: use after free
+	int *pride;
+	{
+	pride = (int *)malloc(1);
+	}*/
+return (0);
+}
