@@ -11,7 +11,7 @@ I want to make a pride flag with fsanitize errors.
 - [ ] Partially addressable | 06
 - [ ] Partially addressable | 07
 - [ ] Heap left redzone | fa
-- [ ] Freed heap region | fd
+- [x] Freed heap region | fd
 - [ ] Stack left redzone | f1
 - [ ] Stack mid redzone | f2
 - [ ] Stack right redzone | f3
@@ -30,6 +30,8 @@ I want to make a pride flag with fsanitize errors.
 
 
 ## Fuentes
+
+- [Principal](https://learn.microsoft.com/es-es/cpp/sanitizers/asan-error-examples?view=msvc-170)
 
 - [Microsoft](https://devblogs.microsoft.com/cppblog/addresssanitizer-continue_on_error/)
 - [Google](https://github.com/google/sanitizers/wiki/AddressSanitizer)
