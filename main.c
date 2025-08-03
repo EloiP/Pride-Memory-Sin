@@ -19,24 +19,18 @@ int main() {
 	s = "1";
 	free(s);*/
 
-	/*
-	int i = *(int *)malloc(2);//error: pa2
-	i = 0;
-	i++;
-	free((void *)i);
-	*/
-	free((void *)1);
+	//free((void *)1);
 	/*	
 	alloc();
 	int i = ret_after_use();
 	ptr = &i; // error: use after return
 	*/
 
-	/*
+	
 	char *s = malloc(1);
 	free(s);
 	printf("%s", s);//error: use after free
-	*/
+	
 	/*
 	int *pride;
 	{
