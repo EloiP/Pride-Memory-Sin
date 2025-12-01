@@ -1,4 +1,3 @@
-// example1.cpp
 // heap-buffer-overflow error
 #include <stdlib.h>
 #include <string.h>
