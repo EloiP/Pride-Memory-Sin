@@ -10,3 +10,5 @@ fd:
 	cc -w $(ASAN) fd.c -o Pridefd.error -no-pie
 fa:
 	cc -w $(ASAN) fa.c -o Pridefa.error -no-pie
+poison:
+	cc -w $(ASAN) poison.c -o Poison.error -no-pie
